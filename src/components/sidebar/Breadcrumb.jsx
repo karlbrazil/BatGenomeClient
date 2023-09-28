@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 import "./Sidebar.css";
-import { withRouter } from "react-router";
+// import { withRouter } from "react-router";
 
 export class Breadcrumb extends Component {
   constructor(props) {

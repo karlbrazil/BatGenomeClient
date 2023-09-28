@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { withRouter } from "react-router";
+import { withRouter } from "react-router-dom";
 import Sidebar from "../../components/sidebar/Sidebar";
 import CategoryContent from "../../components/taxonomy_handler/CategoryContent";
 

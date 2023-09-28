@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Sidebar from "../../components/sidebar/Sidebar";
 import StrainContent from "../../components/strain_content/StrainContent";
-import { withRouter } from "react-router";
+import { withRouter } from "react-router-dom";
 
 export class StrainDetail extends Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Home.css";
 import Sidebar from "../../components/sidebar/Sidebar";
-import { withRouter } from "react-router";
+import { withRouter } from "react-router-dom";
 
 export class Home extends Component {
   render() {
